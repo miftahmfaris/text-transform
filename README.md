@@ -1,6 +1,6 @@
 This project will transform from input user to upper case and alternate case
 
-You can access this project at [link](https://miftah-text-transform.netlify.app/)
+You can access online for this project at [link](https://miftah-text-transform.netlify.app/)
 
 For offline:
 
