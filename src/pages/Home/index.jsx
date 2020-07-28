@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import { FormCharacter, TransformCharacter } from "../../components";
+import { FormCharacter, AlternateCase, UpperCase } from "../../components";
 
 const useStyles = makeStyles(() => ({
     root: {
@@ -26,7 +26,8 @@ export default function Home() {
             </Grid>
             <Grid container justify={"center"}>
                 <Grid item>
-                    <TransformCharacter />
+                    <UpperCase />
+                    <AlternateCase />
                 </Grid>
             </Grid>
         </Grid>

@@ -36,10 +36,13 @@ export default function Character() {
                 const errors = {};
                 if (!values.characters) {
                     errors.characters = "Required";
+                } else if (values.characters.match(/[0-9]/)) {
+                    errors.characters = "Please don't input number";
                 }
                 return errors;
             }}
-            onSubmit={(values, { setSubmitting }) => {
+            onSubmit={(values, { resetForm }) => {
+                resetForm({ values: "" });
                 dispatch(changeCharacter(values));
             }}
         >
