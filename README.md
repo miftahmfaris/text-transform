@@ -12,4 +12,6 @@ For offline:
 
 4. Check your browser
 
-5. Thank you
+5. For testing RUN `yarn test`
+
+6. Thank you
