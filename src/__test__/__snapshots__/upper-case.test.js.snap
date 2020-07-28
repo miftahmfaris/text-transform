@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UpperCase /> should render without error 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-container"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item"
+    >
+      <h3>
+        Upper Case : 
+        makan
+      </h3>
+    </div>
+  </div>
+</div>
+`;

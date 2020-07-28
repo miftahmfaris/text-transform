@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AlternateCase /> should render without error 1`] = `
+<div>
+  <div
+    class="MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item"
+    >
+      <h3>
+        Alternate Case : 
+        mAkAn
+      </h3>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<App /> should render without error 1`] = `
+<div>
+  <div
+    class="MuiGrid-root"
+  />
+</div>
+`;
